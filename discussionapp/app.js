@@ -44,8 +44,8 @@ const updateMessageSender = (name) => {
   chatInput.focus()
 }
 
-johnSelectorBtn.onclick = () => updateMessageSender('John')
-janeSelectorBtn.onclick = () => updateMessageSender('Jane')
+johnSelectorBtn.onclick = () => updateMessageSender('OGGY')
+janeSelectorBtn.onclick = () => updateMessageSender('OLIVIA')
 
 const sendMessage = (e) => {
   e.preventDefault()
